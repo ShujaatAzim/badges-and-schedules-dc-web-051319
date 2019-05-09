@@ -12,7 +12,7 @@ def assign_rooms(arr)
   new_arr
 end
 
-def printer
+def printer(arr)
   batch_badge_creator
   assign_rooms.map { |assignment| puts assignment}
 end
