@@ -14,5 +14,5 @@ end
 
 def printer(arr)
   batch_badge_creator(arr).map { |badge| puts badge}
-  assign_rooms(arr).map {| assignment| puts assignment}
+  assign_rooms(arr).map { |assignment| puts assignment}
 end
