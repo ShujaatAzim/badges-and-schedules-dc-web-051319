@@ -13,6 +13,6 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  puts batch_badge_creator
-  assign_rooms.map { |assignment| puts assignment}
+  batch_badge_creator
+  assign_rooms(arr)
 end
